@@ -1,0 +1,16 @@
+#I used perplexity AI for a bit of guidance and understanding errors. it cleared up confusion when i got errors
+#from not inputting any variables when calling the script, it also cleared up how to finish the final part of 
+#excersise 3 by showing me the way to take more than 1 variable from the user. 
+#I used prompts such as
+#how do i take more than one variable from a user in nano for arguments
+#how do i get the date inside nano for timestamping in a seperate file.
+# an example of a snippet i got is: 
+# Save the current date and time.
+#current_time=$(date)
+
+# Add the date and time to the log file.
+#echo "$current_time - Script was run" >> process.log
+
+
+
+

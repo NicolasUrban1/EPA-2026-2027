@@ -38,9 +38,9 @@ echo "There are $ct processes running on this machine"
 
 processes=$(ps -ef | wc -l)
 
-if [ "$processes" -gt "$1" ];
-	then
+if [ "$processes" -gt "$1" ]; #compare the number of processes with the number entered by user
+	then # this message is shown when the limit is exceeded
 		echo "Maximum number of processes exceeded"
-	else
+	else # this message is shown when the limit is NOT excedded
 		echo "The maximum number of processes not exceded"
 fi
